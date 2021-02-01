@@ -5,8 +5,10 @@
 }
 
 .container{
-  margin-left: 15%;
-  margin-right: 15%;
+  /* width: 86%;
+  margin: auto; */
+  /* padding-left: 40px;
+  padding-right: 40px; */
 }
 
 /* clearfix */
@@ -21,36 +23,97 @@
 .row{
   height: 70px;
   width: 100%;
+  padding:right: 40px;
 }
 
-.red{
-  height: 50px;
-  float: left;
-  background-color: red;
-}
-
-.green{
-  height: 50px;
-  float: right;
-  background-color: green;
-}
 
 #backrowtop{
-  background-color: grey;
+  background-color: #CBD6E2;
 }
 
 #backrowdown{
-  background-color: lightgrey;
+  background-color: #FFFFFF;
+  border-top: 1px solid black;
 }
 
+.container-button{
+    height: 34px;
+    margin-top: -15px;
+    font-size: 12px;
+}
+
+.button{
+    border-radius: 5px;
+    border:1px solid #fe775a;
+    color: white;
+    background-color: #fe775a;
+}
+
+
+.pre-nav .left-prenav{
+    float: left;
+    height: 70px;
+    font-size: 14px;
+}
+
+.pre-nav .right-prenav{
+  float: right;
+}
+
+
+.language-select{
+    display: inline-block;
+    margin-top: 27px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+.pre-nav a{
+    color: #113949;
+}
+
+.contacts{
+    display: inline-block;
+    margin-top: 27px;
+    padding-left: 10px;
+}
+
+#vuoto{
+    background-color: #f5f8fa;
+    color: #fe775a;
+    margin: 0 20px;
+}
+
+.container-button a:last-child{
+    color: #FFFFFF;
+}
+
+header .button{
+    padding: 10px;
+}
+
+
+
+/* jumbotron */
 .jumbotron{
-  background-color: yellow;
+  /* background-color: yellow; */
   height: 60vh;
+  background-image: url("../img/jumbotron.png");
+  background-size: 71%;
+  background-position: 100% 10%;
+  background-repeat: no-repeat;
 }
 
+.backjumbo{
+  background-color: #fff2ee;
+}
+
+/* divider top section */
 .header-divider{
   height: 70px;
   background-color: lightblue;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* main */
@@ -119,12 +182,6 @@
   margin-right: 5%
 }
 
-#counter{
-  height: 200px;
-  width: 70%;
-  background-color: #fff;
-  margin-left: 5%;
-}
 
 .calltosub-row{
   background-color: #fff;
