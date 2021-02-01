@@ -21,6 +21,14 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+.button{
+  border-radius: 5px;
+  border:1px solid #fe775a;
+  color: #FFFFFF;
+  background-color: #fe775a;
+  text-decoration: none;
+}
+
 
 /* header */
 
@@ -45,6 +53,7 @@ body{
 
 
 
+
 /*pre-nav */
 .row{
   height: 70px;
@@ -54,7 +63,7 @@ body{
 
 
 #backrowtop{
-  background-color: #CBD6E2;
+  background-color: ##f5f8fa;;
 }
 
 #backrowdown{
@@ -69,12 +78,6 @@ body{
     padding-right: 203.113px;
 }
 
-.button{
-    border-radius: 5px;
-    border:1px solid #fe775a;
-    color: #FFFFFF;
-    background-color: #fe775a;
-}
 
 
 .pre-nav .left-prenav{
@@ -119,8 +122,9 @@ header .button{
     padding: 10px;
 }
 
-
-
+.fa-search {
+  color: #00e7ff;
+}
 
 
 /* main nav */
@@ -160,20 +164,49 @@ header li a i{
     margin: 0 6px;
 }
 
-/* jumbotron */
-.jumbotron{
-  /* background-color: yellow; */
-  height: 60vh;
-  background-image: url("../img/jumbotron.png");
-  background-size: 71%;
-  background-position: 100% 10%;
-  background-repeat: no-repeat;
-}
 
+
+
+/* jumbotron */
 .backjumbo{
   background-color: #fff2ee;
 }
 
+.jumbotron{
+  position: relative;
+  height: 60vh;
+  background-image: url("../img/jumbotron.png");
+  background-size: 71%;
+  background-position: 100% 11%;
+  background-repeat: no-repeat;
+}
+
+
+.jumbotron > .jumbotext{
+  position: absolute;
+  left: 10%;
+  top: 50px;
+  width: 29%;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.jumbotron p{
+    line-height: 25px;
+    margin: 35px 0;
+    font-size: 14px;
+}
+
+.jumbotron a{
+    padding: 15px 30px;
+    font-size: 12px;
+}
+
+.jumbotron h6{
+    margin-top: 50px;
+}
 /* divider top section */
 .header-divider{
   height: 70px;
