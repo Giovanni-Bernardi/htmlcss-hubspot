@@ -1,3 +1,4 @@
+/* general rules */
 *{
   margin: 0;
   padding: 0;
@@ -5,10 +6,8 @@
 }
 
 .container{
-  /* width: 86%;
-  margin: auto; */
-  /* padding-left: 40px;
-  padding-right: 40px; */
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* clearfix */
@@ -18,8 +17,35 @@
   clear: both;
 }
 
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+
 /* header */
 
+.chevron-down::before {
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+
+.chevron-down:before{
+	top: 0;
+	transform: rotate(135deg);
+}
+
+
+
+/*pre-nav */
 .row{
   height: 70px;
   width: 100%;
@@ -37,15 +63,16 @@
 }
 
 .container-button{
-    height: 34px;
+    height: 55px;
     margin-top: -15px;
     font-size: 12px;
+    padding-right: 203.113px;
 }
 
 .button{
     border-radius: 5px;
     border:1px solid #fe775a;
-    color: white;
+    color: #FFFFFF;
     background-color: #fe775a;
 }
 
@@ -78,7 +105,7 @@
     padding-left: 10px;
 }
 
-#vuoto{
+#empty{
     background-color: #f5f8fa;
     color: #fe775a;
     margin: 0 20px;
@@ -93,6 +120,45 @@ header .button{
 }
 
 
+
+
+
+/* main nav */
+nav{
+    background-color: white;
+}
+
+nav img{
+    margin-top: 20px;
+}
+
+.dropdown-menu{
+    float: right;
+    height: 70px;
+
+}
+
+header nav ul{
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+header nav li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+header nav li:last-child{
+    margin: 0;
+}
+
+header li a{
+    color: #113949;
+}
+
+header li a i{
+    margin: 0 6px;
+}
 
 /* jumbotron */
 .jumbotron{
