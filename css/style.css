@@ -5,8 +5,8 @@
 }
 
 .container{
-  /* margin-left: 15%;
-  margin-right: 15%; */
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* clearfix */
@@ -55,9 +55,46 @@
 
 /* main */
 .rubik{
-  height: 110vh;
+  height: 130vh;
   background-color: #f5f8fa;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+.cube{
+  height: 300px;
+  background-color: green;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 30px;
+}
+
+.orizzontal{
+  height: 300px;
+  background-color: red;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.rowvertical{
+  height: 500px;
+  background-color: pink;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+
+.column{
+  background-color: blue;
+  width: 23%;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block;
+
+}
+
 
 /* table */
 
@@ -70,6 +107,23 @@
 .sponsor-row{
   background-color: #fff;
   height: 30vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: inline-block;
+}
+
+#counter{
+  height: 200px;
+  width: 20%;
+  background-color: #fff;
+  margin-right: 5%
+}
+
+#counter{
+  height: 200px;
+  width: 70%;
+  background-color: #fff;
+  margin-left: 5%;
 }
 
 .calltosub-row{
