@@ -29,8 +29,14 @@ a{
 }
 
 
+.fas.fa-check-circle{
+  color: #ff7a59;
+  padding-right: 17px;
+}
 
-
+.button.orange.big{
+  padding: 15px 23px;
+}
 
 /* clearfix */
 .row::after{
@@ -46,6 +52,14 @@ a{
 
 
 /* header */
+
+/* header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 800;
+} */
+
 .chevron-down::before {
 	border-style: solid;
 	border-width: 0.25em 0.25em 0 0;
@@ -64,9 +78,6 @@ a{
 	top: 0;
 	transform: rotate(135deg);
 }
-
-
-
 
 
 
@@ -455,7 +466,7 @@ h2,p{
 .columns.mainsecond>button{
   margin: 45px 37%;
 }
-/* ----------------------- */
+
 
 /* table */
 
