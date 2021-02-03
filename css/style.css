@@ -45,16 +45,13 @@ a{
   clear: both;
 }
 
-
-
 /* header */
-
-/* header{
+header{
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 800;
-} */
+}
 
 .chevron-down::before {
 	border-style: solid;
@@ -206,6 +203,7 @@ header li a i{
   background-size: 83%;
   background-position: 100% 11%;
   background-repeat: no-repeat;
+  margin-top: 140px;
 }
 
 
