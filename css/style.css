@@ -12,7 +12,7 @@
 
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #113949;
 }
 
@@ -201,9 +201,9 @@ header li a i{
 
 .jumbotron{
   position: relative;
-  height: 63vh;
+  height: 70vh;
   background-image: url("../img/jumbotron.png");
-  background-size: 75%;
+  background-size: 83%;
   background-position: 100% 11%;
   background-repeat: no-repeat;
 }
@@ -217,22 +217,23 @@ header li a i{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .jumbotron p{
-    line-height: 25px;
-    margin: 35px 0;
-    font-size: 14px;
+  line-height: 25px;
+  margin: 35px 0;
+  font-size: 16px;
 }
 
 .jumbotron a{
-    padding: 15px 30px;
-    font-size: 12px;
+  padding: 15px 30px;
+  font-size: 16px;
 }
 
 .jumbotron h6{
-    margin-top: 50px;
+  margin-top: 50px;
+  font-size: 12px;
 }
 
 
@@ -462,6 +463,7 @@ h2,p{
   text-align: center;
   background-image: linear-gradient(45deg
   ,#00a4bd,#00bda5);
+  padding-bottom: 50px;
 }
 
 .titlesectionthird{
@@ -587,11 +589,11 @@ h2,p{
 
 .call-to-action a{
   padding: 15px 30px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .call-to-action h2{
-    font-size: 28px;
+    font-size: 42px;
 }
 
 .call-to-action h5{
@@ -616,11 +618,11 @@ h2,p{
 
 /* footer */
 footer{
-  background-color: #32495b;
   height: 60vh;
-  color: rgb(206,218,225);
   padding: 10px 0 50px 0;
   text-align: left;
+  color: rgb(206,218,225);
+  background-color: #32495b;
 }
 
 footer a{
@@ -646,7 +648,7 @@ footer .vertical li{
     list-style-type: none;
 }
 
-/* clearfix */
+/* clearfix vertical*/
 .vertical::after{
   content: "";
   display: table;
@@ -655,15 +657,53 @@ footer .vertical li{
 
 .hubspot-client-support{
     font-size: 13px;
-    color: #32495b;
     border-radius: 5px;
-    background-color: #F0F0F0;
     display: inline-block;
     margin-bottom: 15px;
     padding: 10px;
+    background-color: #F0F0F0;
+    color: #32495b;
+}
+
+/* bottom footer */
+.bottom-languages {
+    border-bottom: 1px solid rgb(206,218,225);
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+}
+
+.bottom-languages a{
+  padding: 15px;
 }
 
 .social-network i{
     width: 11%;
     text-align: left;
+}
+
+.bottom-footer{
+    margin-top: 50px;
+}
+
+.bottom-footer h5 > i{
+  margin: 0 4px;
+}
+
+.bottom-footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.privacy-policy{
+  float: right;
+}
+
+.site-logo{
+  float: left;
+}
+
+.site-logo h5{
+    margin-top: 5px;
 }
