@@ -47,10 +47,6 @@ a{
 
 
 
-
-
-
-
 /* header */
 
 /* header{
@@ -81,8 +77,6 @@ a{
 
 
 
-
-
 /*pre-nav */
 .row{
   width: 100%;
@@ -101,7 +95,6 @@ a{
 }
 
 .container-button{
-    height: 55px;
     margin-top: -15px;
     font-size: 12px;
     padding-right: 203.113px;
@@ -208,9 +201,9 @@ header li a i{
 
 .jumbotron{
   position: relative;
-  height: 60vh;
+  height: 63vh;
   background-image: url("../img/jumbotron.png");
-  background-size: 71%;
+  background-size: 75%;
   background-position: 100% 11%;
   background-repeat: no-repeat;
 }
@@ -241,6 +234,9 @@ h1{
 .jumbotron h6{
     margin-top: 50px;
 }
+
+
+
 /* divider top section */
 .header-divider{
   height: 70px;
@@ -252,12 +248,8 @@ h1{
 
 
 
-
-
-
 /* main */
 .second-section-container{
-  height: 160vh;
   background-color: #f5f8fa;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -302,16 +294,16 @@ h1{
 }
 
 
-
 h2,p{
   margin-bottom: 10px;
 }
 
 
 #imgbook{
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: auto;
 }
+
 
 .section.main.first, .columns.mainsecond{
   box-shadow: 1px 1px 5px 1px rgb(226, 233, 239);
@@ -345,9 +337,7 @@ h2,p{
 
 
 
-
-
-/*  main row first */
+/*  main first */
 .section.main.first{
   background-color: #FFFFFF;
 }
@@ -369,7 +359,7 @@ h2,p{
 
 .columns.mainfirstleft>button{
   margin-top: 40px;
-  margin-left: 15px;
+  margin-left: 60px;
   padding-bottom: 60px;
 }
 
@@ -413,9 +403,7 @@ h2,p{
 
 
 
-
-
-/*  main row second */
+/*  main second */
 .columns.mainsecond{
   width: calc(90% / 3);
   background-color: #fff;
@@ -433,7 +421,7 @@ h2,p{
 }
 
 .columns.mainsecond img{
-  height: 170px;
+  height: 150px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -468,13 +456,12 @@ h2,p{
 }
 
 
-/* table */
+/* table main third */
 
 .table{
-  height: 50vh;
+  text-align: center;
   background-image: linear-gradient(45deg
   ,#00a4bd,#00bda5);
-  text-align: center;
 }
 
 .titlesectionthird{
@@ -493,36 +480,36 @@ h2,p{
   line-height: 1.8;
 }
 
-/* blockinfo */
-.blockinfo{
+/* infobox */
+.infobox{
   float: left;
 }
 
-.blockinfo.middle{
+.infobox.middle{
   height: 200px;
   width: 25%;
   color: #fff;
 }
 
-.blockinfo.middle.top{
+.infobox.middle.top{
   border-bottom: 1px solid #fff;
 }
 
-.blockinfo.middle.marginleft{
+.infobox.middle.marginleft{
   border-left: 1px solid #fff;
 }
 
-.blockinfo.middle img{
+.infobox.middle img{
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.blockinfo.middle h2{
+.infobox.middle h2{
   font-size: 40px;
   padding-bottom: 18px;
 }
 
-.blockinfo.middle span{
+.infobox.middle span{
   font-size: 15px;
   padding-bottom: 25px;
 }
@@ -543,13 +530,140 @@ h2,p{
   margin-right: 5%
 }
 
-
 .calltosub-row{
   background-color: #fff;
   height: 50vh;
 }
 
+/* sponsor */
+.sponsor{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* counter*/
+.counter{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.sponsor-top .counter > span{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.counter h5{
+    margin-top: 30px;
+}
+
+.counter h5 > span{
+    font-size: 15px;
+}
+
+/* logos*/
+.logos{
+    float: right;
+    width: 60%;
+}
+
+.logos img{
+    max-width: 20%;
+    height: auto;
+    margin: 2%;
+    vertical-align: middle;
+}
+
+/*sponsor down */
+.sponsor-down{
+    padding-top: 50px;
+}
+
+/* call to action */
+.call-to-action{
+    float: left;
+    width: 40%;
+}
+
+.call-to-action a{
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+.call-to-action h2{
+    font-size: 28px;
+}
+
+.call-to-action h5{
+    margin: 30px 0 60px 0;
+}
+
+.call-to-action h6{
+  margin-top: 60px;
+}
+
+
+/* img smiling */
+.smiling-person{
+    float: right;
+    width: 25%;
+}
+
+.smiling-person img{
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
 footer{
-  background-color: #2d3e50;
+  background-color: #32495b;
   height: 60vh;
+  color: rgb(206,218,225);
+  padding: 10px 0 50px 0;
+  text-align: left;
+}
+
+footer a{
+    color: rgb(206,218,225);
+}
+
+footer .vertical{
+    float: left;
+    width: 20%;
+    min-width: 210px;
+    margin-right:5%;
+}
+
+footer ul li:first-child{
+    color: white;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+footer .vertical li{
+    margin: 15px 0;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+/* clearfix */
+.vertical::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hubspot-client-support{
+    font-size: 13px;
+    color: #32495b;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.social-network i{
+    width: 11%;
+    text-align: left;
 }
