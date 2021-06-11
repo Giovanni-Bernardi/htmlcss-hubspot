@@ -51,6 +51,7 @@ header{
   width: 100%;
   top: 0;
   z-index: 800;
+  shad;
 }
 
 .chevron-down::before {
@@ -188,9 +189,6 @@ header li a i{
 }
 
 
-
-
-
 /* jumbotron */
 .backjumbo{
   background-color: #fff2ee;
@@ -243,8 +241,6 @@ h1{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-
-
 
 
 /* main */
@@ -333,7 +329,6 @@ h2,p{
   max-width: 900px;
   margin: 0 auto;
 }
-
 
 
 /*  main first */
@@ -446,7 +441,7 @@ h2,p{
 
 .columns.mainsecond ul{
   list-style-type: none;
-  margin-left: 10%;
+  margin-left: 25%;
   margin-top: 30px;
 }
 
